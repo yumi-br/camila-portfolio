@@ -42,7 +42,7 @@ p {
 .hero p {
   font-size: 36px;
   font-weight: bold;
-  margin: 0;
+  margin: 10px;
   color: #272142;
 }
 
