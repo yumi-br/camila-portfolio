@@ -1,7 +1,14 @@
-body {
-  background: red;
-}
+/* font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif; */
 
 h1 {
-  color: white;
+  color: black;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+
+p {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
 }
