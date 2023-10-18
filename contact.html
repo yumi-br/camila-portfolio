@@ -69,12 +69,28 @@
       </div>
     </nav>
     <div class="hero">
-      <h1>Entre em contato</h1>
-      <h2 class="mb-5"></h2>
+      <h1>Contato</h1>
+      <h2 class="mb-2">Envie sua mensagem</h2>
+    </div>
+    <div class="form m-5 text-center">
 
-      <div>
-        <a href="#" class="btn btn-branding">Contato</a>
-      </div>
+      <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>Seu Nome: <input type="text" name="name" /></label>
+        </p>
+        <p>
+          <label>Seu Email: <input type="email" name="email" /></label>
+        </p>
+        
+        <span>
+          <label>Mensagem: <textarea name="message" rows="3" cols="33"></textarea></label>
+        </p>
+        <p>
+          <button type="submit" class="btn btn-branding">Enviar</button>
+        </p>
+      </form>
+    </div>
+
     </div>
 
     </div>
