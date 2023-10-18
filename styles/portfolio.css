@@ -73,7 +73,13 @@ p {
 }
 
 .project-description {
-  padding: 120px 60px;
+  padding: 80px 60px;
+}
+
+.contact-box {
+  background: var(--secondary-color);
+  padding: 30px 80px;
+  text-align: center;
 }
 
 @media (max-width: 900px) {
@@ -83,7 +89,7 @@ p {
   }
 
   h2 {
-    font-size: 44px;
+    font-size: 40px;
   }
 
   .hero {
